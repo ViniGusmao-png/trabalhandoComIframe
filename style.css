@@ -41,3 +41,16 @@ iframe#tela{
     background-size: cover;
 
 }
+section#fundo img{
+    width: 70px;
+    margin-top: 60px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#fundo img:hover{
+    border: 2px solid white;
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s;
+}
